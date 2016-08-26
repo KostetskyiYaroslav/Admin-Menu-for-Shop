@@ -1,0 +1,16 @@
+.file {
+    color: red;
+    padding: 5px;
+    border: 5px solid #8BF1B0;
+    background-color: #8BF1B0;
+    border-radius: 5px;
+    box-shadow: 0 0 15px #626F7E;
+    width: 72%;
+    margin: 10px auto;
+}
+#pictureOperation {margin: 0 auto;text-align: center;}
+#pictureOperation div {margin-bottom: 10px;}
+.moderationBtn {margin:5px;}
+.moderationBtn:focus {outline:none;}
+#otherPictures { text-align: center; }
+.otherPicturesItem {width:calc(95%/4);}
