@@ -1,3 +1,4 @@
+var addedProduct = null;
 $(document).ready(function () {
     $('[data-toggle="tooltip"]').tooltip();
     $('#add_more').click(function (e) {
@@ -192,9 +193,9 @@ function uploadProduct(product, $productPicturesArray) {
         formData.append(this.id, this.files[ 0 ]);
     });
     var ajax = new XMLHttpRequest();
-    ajax.open("POST", "./backend/controllers/product.php");
+    ajax.open("POST", "../../backend/controllers/product.php");
     ajax.onload = function () {
-        var addedProduct = $.parseJSON(ajax.responseText);
+        addedProduct = $.parseJSON(ajax.responseText);
         alert('Товар з ID = '+addedProduct.id+' додано!');
         if ($('#resetProductFields').is(":checked"))
         {
