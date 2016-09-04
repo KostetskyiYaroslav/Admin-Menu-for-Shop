@@ -7,9 +7,9 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Admin Home</title>
     <!-- Bootstrap -->
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../../assets/css/bootstrap.min.css" rel="stylesheet">
     <!-- Main Style -->
-    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="../../assets/css/style.css" rel="stylesheet">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -77,29 +77,41 @@
     <div id="singleProduct" class="row">
         <div id="productPictures" class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
             <div id="currentImage">
-                <img id="currentPictureItem" class="img-thumbnail" src="uploads/products/370475c20dcbcfbab07ab6c2df7e27444d5ac2afca569.png" alt="Picture 1">
+                <!--                <img id="currentPictureItem" class="img-thumbnail" src="uploads/products/370475c20dcbcfbab07ab6c2df7e27444d5ac2afca569.png" alt="Picture 1">-->
             </div>
             <div id="otherPictures">
-                <a href="#currentPictureItem" ><img class="otherPicturesItem img-thumbnail" src="uploads/products/370475c20dcbcfbab07ab6c2df7e27444d5ac2afca569.png" alt="Picture 1"></a>
-                <a href="#currentPictureItem" ><img class="otherPicturesItem img-thumbnail" src="uploads/products/55846e3039f248dd555899a396179b51a05be377f9973.png" alt="Picture 2"></a>
-                <a href="#currentPictureItem" ><img class="otherPicturesItem img-thumbnail" src="uploads/products/300725c20dcbcfbab07ab6c2df7e27444d5ac2afca569.png" alt="Picture 3"></a>
-                <a href="#currentPictureItem" ><img class="otherPicturesItem img-thumbnail" src="uploads/products/71105278cadb5c5a600fd354bbb4a32acf34407bf98f0.png" alt="Picture 4"></a>
-                <a href="#currentPictureItem" ><img class="otherPicturesItem img-thumbnail" src="uploads/products/21605bd473197c461193ea9b6d317f4c236910d065887.png" alt="Picture 5"></a>
+                <!--                <a href="#currentPictureItem" ><img class="otherPicturesItem img-thumbnail" src="uploads/products/370475c20dcbcfbab07ab6c2df7e27444d5ac2afca569.png" alt="Picture 1"></a>-->
+                <!--                <a href="#currentPictureItem" ><img class="otherPicturesItem img-thumbnail" src="uploads/products/55846e3039f248dd555899a396179b51a05be377f9973.png" alt="Picture 2"></a>-->
+                <!--                <a href="#currentPictureItem" ><img class="otherPicturesItem img-thumbnail" src="uploads/products/300725c20dcbcfbab07ab6c2df7e27444d5ac2afca569.png" alt="Picture 3"></a>-->
+                <!--                <a href="#currentPictureItem" ><img class="otherPicturesItem img-thumbnail" src="uploads/products/71105278cadb5c5a600fd354bbb4a32acf34407bf98f0.png" alt="Picture 4"></a>-->
+                <!--                <a href="#currentPictureItem" ><img class="otherPicturesItem img-thumbnail" src="uploads/products/21605bd473197c461193ea9b6d317f4c236910d065887.png" alt="Picture 5"></a>-->
             </div>
         </div>
-        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 container" id="product Info">
-            <p class="col-xs-12"><span class="col-xs-6 col-sm-4 col-md-4 col-lg-4">НАЗВА:</span><span class="col-xs-6 col-sm-8 col-md-8 col-lg-8">Product 1               </span> </p>
-            <p class="col-xs-12"><span class="col-xs-6 col-sm-4 col-md-4 col-lg-4">ЦІНА:</span><span class="col-xs-6 col-sm-8 col-md-8 col-lg-8">10.99                   </span> </p>
-            <p class="col-xs-12"><span class="col-xs-6 col-sm-4 col-md-4 col-lg-4">ВИРОБНИК:</span><span class="col-xs-6 col-sm-8 col-md-8 col-lg-8">Chine                   </span> </p>
-            <p class="col-xs-12"><span class="col-xs-6 col-sm-4 col-md-4 col-lg-4">КОЛЬОРИ:</span><span class="col-xs-6 col-sm-8 col-md-8 col-lg-8">Red, Blue, White        </span> </p>
-            <p class="col-xs-12"><span class="col-xs-6 col-sm-4 col-md-4 col-lg-4">РОЗМІРИ:</span><span class="col-xs-6 col-sm-8 col-md-8 col-lg-8">XXL, XX, XL             </span> </p>
-            <p class="col-xs-12"><span class="col-xs-6 col-sm-4 col-md-4 col-lg-4">ОПИС:</span><span class="col-xs-6 col-sm-8 col-md-8 col-lg-8">Description of Product 1</span> </p>
-            <div class="col-xs-12"><span class="text-info col-xs-6 col-sm-2 col-md-2 col-lg-2"></span>      </div>
-            <div class="col-xs-12"><span class="text-info col-xs-6 col-sm-2 col-md-2 col-lg-2"></span>    </div>
-            <div class="col-xs-12"><span class="text-info col-xs-6 col-sm-2 col-md-2 col-lg-2"></span>   </div>
-            <div class="col-xs-12"><span class="text-info col-xs-6 col-sm-2 col-md-2 col-lg-2"></span>   </div>
-            <div class="col-xs-12"><span class="text-info col-xs-6 col-sm-2 col-md-2 col-lg-2"></span>   </div>
-            <div class="col-xs-12"><span class="text-info col-xs-6 col-sm-2 col-md-2 col-lg-2"></span> </div>
+        <div id="productInfo" class="col-xs-12 col-sm-6 col-md-6 col-lg-6" >
+            <p class="col-xs-12">
+                <span class="col-xs-6 col-sm-4 col-md-4 col-lg-4">НАЗВА:</span>
+                <span id="productName" class="col-xs-6 col-sm-8 col-md-8 col-lg-8">-</span>
+            </p>
+            <p class="col-xs-12">
+                <span class="col-xs-6 col-sm-4 col-md-4 col-lg-4">ЦІНА:</span>
+                <span id="productPrice" class="col-xs-6 col-sm-8 col-md-8 col-lg-8">-</span>
+            </p>
+            <p class="col-xs-12">
+                <span class="col-xs-6 col-sm-4 col-md-4 col-lg-4">ВИРОБНИК:</span>
+                <span id="productMadeIn" class="col-xs-6 col-sm-8 col-md-8 col-lg-8">-</span>
+            </p>
+            <p class="col-xs-12">
+                <span class="col-xs-6 col-sm-4 col-md-4 col-lg-4">КОЛЬОРИ:</span>
+                <span id="productColors" class="col-xs-6 col-sm-8 col-md-8 col-lg-8">-</span>
+            </p>
+            <p class="col-xs-12">
+                <span class="col-xs-6 col-sm-4 col-md-4 col-lg-4">РОЗМІРИ:</span>
+                <span id="productSizes" class="col-xs-6 col-sm-8 col-md-8 col-lg-8">-</span>
+            </p>
+            <p class="col-xs-12">
+                <span class="col-xs-6 col-sm-4 col-md-4 col-lg-4">ОПИС:</span>
+                <span id="productDescription" class="col-xs-6 col-sm-8 col-md-8 col-lg-8">-</span>
+            </p>
         </div>
     </div>
 </article>
@@ -109,10 +121,10 @@
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <!-- Main Script -->
-<script src="assets/js/script.js"></script>
+<script src="../../assets/js/script.js"></script>
 <!-- Main View Product Script -->
-<script src="assets/js/_single_view_product.js"></script>
+<script src="../../assets/js/_view_product_single.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="assets/js/bootstrap.min.js"></script>
+<script src="../../assets/js/bootstrap.min.js"></script>
 </body>
 </html>
